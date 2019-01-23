@@ -10,6 +10,7 @@
 		<!--relativePath>../spring-boot-project/spring-boot-starters/spring-boot-starter-parent</relativePath -->
 	</parent>
 	<artifactId>spring-boot-undertow-war</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Spring Boot Undertow War</name>
 	<description>Spring Boot Undertow War</description>
