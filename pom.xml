@@ -7,7 +7,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.2.RELEASE</version>
-		<!--relativePath>../spring-boot-project/spring-boot-starters/spring-boot-starter-parent</relativePath -->
+		<relativePath />
 	</parent>
 	<artifactId>spring-boot-undertow-war</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -15,10 +15,8 @@
 	<name>Spring Boot Undertow War</name>
 	<description>Spring Boot Undertow War</description>
 	<properties>
-		<!--main.basedir>${basedir}/../..</main.basedir -->
 		<m2eclipse.wtp.contextRoot>/</m2eclipse.wtp.contextRoot>
 		<java.version>11</java.version>
-		<junit.version>5.3.2</junit.version>
 	</properties>
 	<dependencies>
 		<!-- Compile -->
@@ -44,12 +42,6 @@
 		</dependency>
 		<!-- Test -->
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
 			<scope>test</scope>
@@ -57,11 +49,6 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.junit.vintage</groupId>
-			<artifactId>junit-vintage-engine</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
